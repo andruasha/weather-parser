@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Weather</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <script type="text/javascript" src="/eel.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div id="list-cur">
+                    <div class="input-group mt-2 mb-2">
+                        <span class="input-group-addon my-width">Location</span>
+                        <input type="text" class="form-control" id="location" readonly>
+                    </div>
+
+                    <div class="input-group mb-2">
+                        <span class="input-group-addon my-width">Current temperature</span>
+                        <input type="text" class="form-control" id="current-temperature" readonly>
+                    </div>
+
+                    <div class="input-group mb-2">
+                        <span class="input-group-addon my-width">Wind</span>
+                        <input type="text" class="form-control" id="wind" readonly>
+                    </div>
+
+                    <div class="input-group mb-2">
+                        <span class="input-group-addon my-width">Min temperature</span>
+                        <input type="text" class="form-control" id="min-temperature" readonly>
+                    </div>
+
+                    <div class="input-group mb-2">
+                        <span class="input-group-addon my-width">Max temperature</span>
+                        <input type="text" class="form-control" id="max-temperature" readonly>
+                    </div>
+
+                </div>
+
+                <button id="btn-sum" class="btn btn-info btn-lg btn-block" type="button">Explore</button>
+
+            </div>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+
+</body>
+</html>
