@@ -13,7 +13,7 @@ def explore():
     city = geo_data['city']
 
     response = requests.get("http://api.openweathermap.org/data/2.5/find",
-                            params={'q': city, 'APPID': "c6ab8cf43efdc5f14527e743ee890273", 'units': 'metric'})
+                            params={'q': city, 'APPID': "your_secret_key", 'units': 'metric'})
     weather_data = response.json()
 
     curr_weather = {
